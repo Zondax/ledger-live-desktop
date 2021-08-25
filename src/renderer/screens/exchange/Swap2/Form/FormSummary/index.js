@@ -18,7 +18,7 @@ const SwapFormSummary = (props: FormSummaryProps) => (
   <Form>
     <SectionProvider />
     <SectionRate />
-    <SectionFees />
+    <SectionFees swapTransaction={props.swapTransaction} />
     <SectionTarget />
   </Form>
 );

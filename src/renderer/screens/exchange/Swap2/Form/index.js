@@ -68,7 +68,7 @@ const SwapForm = () => {
           setFromAmount={swapTransaction.setFromAmount}
           toggleMax={swapTransaction.toggleMax}
         />
-        <SwapFormSummary {...summaryMockedData} />
+        <SwapFormSummary swapTransaction={swapTransaction} {...summaryMockedData} />
         <Button primary disabled={!isSwapReady} onClick={onSubmit}>
           {t("common.exchange")}
         </Button>

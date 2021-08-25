@@ -63,6 +63,7 @@ const useSwapTransaction = () => {
 
   return {
     ...bridgeTransaction,
+    updateTransaction,
     setFromAmount,
     toggleMax,
     setAccount,

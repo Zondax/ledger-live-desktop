@@ -8,4 +8,5 @@ export type FormSummaryProps = {
   onProviderChange: Function,
   onFeesChange: Function,
   onTargetChange: Function,
+  swapTransaction: *,
 };

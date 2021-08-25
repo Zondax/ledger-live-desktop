@@ -43,10 +43,12 @@ const SummaryValue = ({
   value,
   handleChange,
   children,
+  hideEdit = false,
 }: {
   value?: string,
   handleChange: Function,
   children?: React$Node,
+  hideEdit?: boolean,
 }) => {
   if (!value) return <Text>-</Text>;
 
@@ -54,7 +56,7 @@ const SummaryValue = ({
     <Container>
       {children}
       <Text>{value}</Text>
-      <ButtonEdit onClick={handleChange} />
+      {!hideEdit && <ButtonEdit onClick={handleChange} />}
     </Container>
   );
 };
