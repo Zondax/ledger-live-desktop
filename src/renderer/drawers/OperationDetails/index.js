@@ -630,9 +630,8 @@ type OperationDetailsExtraProps = {
 };
 
 const OperationDetailsExtra = ({ extra }: OperationDetailsExtraProps) => {
-  return Object.entries(extra).map(([key, value]) => (
+  return Object.entries(extra).map(([key, value]) => {
     if( typeof value == "object" || typeof value == "function") return null;
-
     return (
       <OpDetailsSection key={key}>
         <OpDetailsTitle>
@@ -643,7 +642,6 @@ const OperationDetailsExtra = ({ extra }: OperationDetailsExtraProps) => {
         </OpDetailsData>
       </OpDetailsSection>
     );
-
   });
 };
 
