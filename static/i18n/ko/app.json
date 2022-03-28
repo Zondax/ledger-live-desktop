@@ -3599,6 +3599,10 @@
     "solana": {
       "memo": "메모",
       "memoPlaceholder": "선택사항"
+    },
+    "stacks": {
+      "memo": "메모",
+      "memoPlaceholder": "선택사항"
     }
   },
   "errors": {

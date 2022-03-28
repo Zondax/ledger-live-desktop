@@ -3599,6 +3599,10 @@
     "solana": {
       "memo": "Memo",
       "memoPlaceholder": "Optional"
+    },
+    "stacks": {
+      "memo": "Memo",
+      "memoPlaceholder": "Optional"
     }
   },
   "errors": {

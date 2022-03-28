@@ -40,4 +40,5 @@ setSupportedCurrencies([
   "ethereum_ropsten",
   "cosmos_testnet",
   "filecoin",
+  "stacks",
 ]);

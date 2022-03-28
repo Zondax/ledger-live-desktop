@@ -34,6 +34,8 @@
 | Viacoin | VIA | YES | viacoin |
 | XRP | XRP | YES | ripple |
 | Zcash | ZEC | YES | zcash |
+| filecoin | FIL | YES | filecoin |
+| stacks | STX | YES | stacks |
 | Aion | AION | NO | aion |
 | Akroma | AKA | NO | akroma |
 | Ark | ARK | NO | ark |
@@ -100,9 +102,7 @@
 | ZClassic | ZCL | NO | zclassic |
 | ZCoin | XZC | NO | zcoin |
 | Zilliqa | ZIL | NO | zilliqa |
-| filecoin | FIL | NO | filecoin |
 | lisk | LSK | NO | lisk |
-| stacks | STX | NO | stacks |
 | æternity | AE | NO | aeternity |
 
 ## Tokens (9768)
